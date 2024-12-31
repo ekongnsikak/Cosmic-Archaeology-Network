@@ -9,6 +9,21 @@ requirements = []
 path = 'contracts/mission-funding.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.peer-review]
+path = 'contracts/peer-review.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.research-management]
+path = 'contracts/research-management.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.space-data-integration]
+path = 'contracts/space-data-integration.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
