@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/mission-funding.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.peer-review]
+path = 'contracts/peer-review.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
